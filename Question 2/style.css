@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 25px;
+}
+body{
+    margin: 10px 10px 10px 10px;
+    height: 100vh;
+    background:linear-gradient(#1B98E0,#FFCAAF);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.body__p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#655560;
+}
+.body__p2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#247BA0;
+}
+
+.body__p3{
+    font-family:'Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif';
+    color:#B3F2DD;
+}
+
+.body__p4{
+    font-family:'Times New Roman, Times, serif';
+    color:whitesmoke;
+    font-weight: 900;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    color: whitesmoke;
+    font-weight: 600;
+}
+ body{  /*getting divs to center of the screen and keeping 20px of gap between them */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+.box{ /* Getting the text in the div in center of the div*/
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Giving colors to the divs*/
+.one{
+    background: aqua;
+}
+.two{
+    background: blueviolet;
+}
+.three{
+    background: chocolate;
+}
+.four{
+    background:chartreuse;
+}
+
+/* Transforming the size of the div 
+when hovered over with the help of class 
+:hover and transform: scale(); */
+
+.one:hover{   
+    transform: scale(1.2);
+}
+.two:hover{
+    transform: scale(1.2);
+}
+.three:hover{
+    transform: scale(1.2);
+}
+.four:hover{
+    transform: scale(1.2);
+}
